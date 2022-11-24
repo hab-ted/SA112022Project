@@ -3,12 +3,12 @@ server:
 
 eureka:
   instance:
-    hostname: eurekaserver
+    hostname: EurekaServer1
     appname: eureka-cluster
   environment: local
   client:
     serviceUrl:
-      defaultZone: http://eurekaserver2:8762/eureka
+      defaultZone: http://EurekaServer:8762/eureka
       registerWithEureka: true
       fetchRegistry: true
 
